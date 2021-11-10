@@ -1,0 +1,19 @@
+uuid: 88cd5103-62fb-4059-a001-37800155bfbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_purchase_link
+    - node.type.jugad_products
+id: node.jugad_products.field_purchase_link
+field_name: field_purchase_link
+entity_type: node
+bundle: jugad_products
+label: 'Purchase Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

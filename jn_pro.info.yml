@@ -1,0 +1,15 @@
+name: Jugaad Patches Product Module
+description: Creates Content Types,Entity and Custom Views and Generate QR Code.
+package: Custom
+
+type: module
+core: 8.x
+
+dependencies:
+  - drupal:link
+  - drupal:text
+  - drupal:path
+  - drupal:node
+  
+  
+core_version_requirement: ^8 || ^9

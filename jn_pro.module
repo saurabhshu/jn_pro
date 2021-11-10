@@ -1,0 +1,17 @@
+<?php 
+
+use Drupal\Core\Url;
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Block\BlockPluginInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function jn_pro_theme($existing, $type, $theme, $path) {
+  return [
+    'jnprolist_template' => [
+      'variables' => ['title' => NULL,'name'=>NULL]
+      
+    ],
+  ];
+}

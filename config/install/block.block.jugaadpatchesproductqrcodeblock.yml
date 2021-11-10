@@ -1,0 +1,28 @@
+uuid: f09147ed-e5bf-437a-bbe7-76fcdbffa0b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - jn_pro
+    - node
+  theme:
+    - bartik
+id: jugaadpatchesproductqrcodeblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: jn_pro_linkurl_qr_code_block
+settings:
+  id: jn_pro_linkurl_qr_code_block
+  label: 'Jugaad Patches Product QR Code Block'
+  provider: jn_pro
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      jugad_products: jugad_products
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

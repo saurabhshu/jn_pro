@@ -1,0 +1,7 @@
+jn_pro.jn_fornt_list:
+  path: '/product-list'
+  defaults:
+    _controller: Drupal\jn_pro\Controller\Jn_proController::pro_list
+    _title: 'List'
+  requirements:
+    _permission: 'access content'    

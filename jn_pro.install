@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Jugaad Patches Product module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function jn_pro_install() {
+  // Create the styles directory and ensure it's writable.
+ // $directory = \Drupal::config('system.file')->get('default_scheme');
+  }
+  function jn_pro_uninstall() {
+    \Drupal::cache('data')->deleteAll();
+  }

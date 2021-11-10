@@ -1,0 +1,38 @@
+uuid: 157d332a-98fd-4683-8656-5c118a585c9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.jugad_products.body
+    - field.field.node.jugad_products.field_product_image
+    - field.field.node.jugad_products.field_purchase_link
+    - image.style.large
+    - node.type.jugad_products
+  module:
+    - image
+    - text
+    - user
+id: node.jugad_products.default
+targetEntityType: node
+bundle: jugad_products
+mode: default
+content:
+  body:
+    type: text_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_product_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  field_purchase_link: true
+  links: true

@@ -1,0 +1,10 @@
+<table>
+	{% for val in name %}
+		<tr>
+			<td><img style="width:100px;height:100px" src="{{ val.image }}"></td>
+			<td>{{ val.title }}</td>
+			<td>{{ val.des | raw }}</td>
+			<td><a href="{{ url('<front>') }}node/{{ val.nid }}">view</a></td>
+		</tr>
+	{% endfor %}
+</table>
