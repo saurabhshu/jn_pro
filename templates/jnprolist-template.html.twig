@@ -1,4 +1,9 @@
-<table>
+<table class="table">
+{% if name is empty %}
+        <tr>
+			<td>No Record Found</td>
+		</tr>
+		{% else %}
 	{% for val in name %}
 		<tr>
 			<td><img style="width:100px;height:100px" src="{{ val.image }}"></td>
@@ -7,4 +12,5 @@
 			<td><a href="{{ url('<front>') }}node/{{ val.nid }}">view</a></td>
 		</tr>
 	{% endfor %}
+	{% endif %}
 </table>
