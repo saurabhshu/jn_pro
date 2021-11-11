@@ -8,14 +8,14 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: sJEcpYLMTUt9n9zGfi8WPrefndzwjo7MMbo4WCOZZS4
+  default_config_hash: zVsUgKYaIIpDmIJ6-bCr8e_EoxfcySHxDK1yzvwVmi8
 id: node.jugad_products.field_product_image
 field_name: field_product_image
 entity_type: node
 bundle: jugad_products
 label: 'Product Image'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

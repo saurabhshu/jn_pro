@@ -6,14 +6,14 @@ dependencies:
     - field.storage.node.field_purchase_link
     - node.type.jugad_products
 _core:
-  default_config_hash: W7FVCuufDonFQdhOrRAwIqBvY-65CE4uJnhk_qlfllg
+  default_config_hash: MF3MoX9GKcyTH1gTjFBquc5T119zPPPnoNdWa6-CG2w
 id: node.jugad_products.field_purchase_link
 field_name: field_purchase_link
 entity_type: node
 bundle: jugad_products
 label: 'Purchase Link'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
