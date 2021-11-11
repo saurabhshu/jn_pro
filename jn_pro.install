@@ -8,7 +8,6 @@
 /**
  * Implements hook_install().
  */
-function jn_pro_uninstall()
- {
-    \Drupal::cache('data')->deleteAll();
-  }
+function jn_pro_uninstall() {
+  \Drupal::cache('data')->deleteAll();
+}

@@ -84,14 +84,13 @@ class JnproUrlQrCodeBlock extends BlockBase implements ContainerFactoryPluginInt
    */
   public function build() {
     $node = $this->routeMatch->getParameter('node');
-    
+
     if ($node instanceof NodeInterface) {
       // Show block only for product pages.
       if ($node->bundle() == 'jugad_products') {
         // Get the product url from link field.
-		
         $product_url = $node->get('field_purchase_link')->getValue()[0]['value'];
-		
+
         if (!empty($product_url)) {
           $qrCode_image = '';
           // Check added URL is external or not.
