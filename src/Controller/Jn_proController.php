@@ -29,7 +29,7 @@ class Jn_proController {
         $variables['productlist']['jnprolist'][] =
         [
           'title' => $title[0]['value'],
-          'des' => $des[0]['value'],
+          'des' => substr($des[0]['value'],0,150).'...',
           'image' => $url,
           'nid' => $nid[0]['value'],
         ];
