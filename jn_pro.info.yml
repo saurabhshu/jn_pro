@@ -1,5 +1,5 @@
 name: Jugaad Patches Product Module
-description: Creates Content Types,Entity and Custom Views and Generate QR Code.
+description: Creates Content Types, Entity and Custom Views and Generate QR Code.
 package: Custom
 
 type: module
