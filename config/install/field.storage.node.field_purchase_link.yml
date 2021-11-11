@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: gL3zdTvCR6tWdG8xJQAp17bloGlmvKeOtHUg86yAHJs
 id: node.field_purchase_link
 field_name: field_purchase_link
 entity_type: node

@@ -10,8 +10,6 @@ use Drupal\Core\Routing\RouteMatchInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\node\NodeInterface;
 use CodeItNow\BarcodeBundle\Utils\QrCode;
-//use vendor\codeitnowin\barcode\CodeItNow\BarcodeBundle\Utils\QrCode;
-//CodeItNow\BarcodeBundle\Utils;
 use Drupal\Core\Render\Markup;
 use Drupal\Core\Url;
 use Drupal\Component\Utility\UrlHelper;
@@ -93,7 +91,7 @@ class JnproUrlQrCodeBlock extends BlockBase implements ContainerFactoryPluginInt
         // Get the product url from link field.
 		
         $product_url = $node->get('field_purchase_link')->getValue()[0]['value'];
-		//print_r($product_url); exit;
+		
         if (!empty($product_url)) {
           $qrCode_image = '';
           // Check added URL is external or not.

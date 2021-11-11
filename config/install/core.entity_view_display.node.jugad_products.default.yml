@@ -12,6 +12,8 @@ dependencies:
     - image
     - text
     - user
+_core:
+  default_config_hash: tkjP_ZcGMBcpwVcA1erN4HT-1DQ5_e2CHoBOT7OcTTc
 id: node.jugad_products.default
 targetEntityType: node
 bundle: jugad_products

@@ -7,6 +7,8 @@ dependencies:
     - node.type.jugad_products
   module:
     - image
+_core:
+  default_config_hash: sJEcpYLMTUt9n9zGfi8WPrefndzwjo7MMbo4WCOZZS4
 id: node.jugad_products.field_product_image
 field_name: field_product_image
 entity_type: node
@@ -23,8 +25,8 @@ settings:
   max_filesize: '4 MB'
   max_resolution: ''
   min_resolution: ''
-  alt_field: true
-  alt_field_required: true
+  alt_field: false
+  alt_field_required: false
   title_field: false
   title_field_required: false
   default_image:

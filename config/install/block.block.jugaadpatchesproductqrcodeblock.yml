@@ -7,6 +7,8 @@ dependencies:
     - node
   theme:
     - bartik
+_core:
+  default_config_hash: icqQ0IUiEvbmIKXM7Lg6NSA_77LEVaX2BHSFzh-18Fs
 id: jugaadpatchesproductqrcodeblock
 theme: bartik
 region: sidebar_second

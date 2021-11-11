@@ -7,17 +7,19 @@ dependencies:
     - node.type.jugad_products
   module:
     - text
+_core:
+  default_config_hash: LP--rUeTt6Hgs6d5ydOydDSN6LrsWlrHhsWhF_iYEz8
 id: node.jugad_products.body
 field_name: body
 entity_type: node
 bundle: jugad_products
-label: Body
+label: Description
 description: ''
 required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  display_summary: true
+  display_summary: false
   required_summary: false
 field_type: text_with_summary
