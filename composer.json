@@ -1,6 +1,6 @@
 {
     "name": "drupal/jn_pro",
-    "description": "Custom moduleto add content type and custom block and generate QR code.",
+    "description": "Custom module to add content type and custom block and generate QR code.",
     "type": "drupal-module",
     "require": {
         "codeitnowin/barcode": "^3.0"
