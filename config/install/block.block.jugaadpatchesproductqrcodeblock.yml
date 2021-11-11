@@ -8,7 +8,7 @@ dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: icqQ0IUiEvbmIKXM7Lg6NSA_77LEVaX2BHSFzh-18Fs
+  default_config_hash: Ic2d_-6Cb5Awnllw4dTeSIjcKeWUgsQSte2-0AfKagU
 id: jugaadpatchesproductqrcodeblock
 theme: bartik
 region: sidebar_second
@@ -19,7 +19,7 @@ settings:
   id: jn_pro_linkurl_qr_code_block
   label: 'Jugaad Patches Product QR Code Block'
   provider: jn_pro
-  label_display: visible
+  label_display: '0'
 visibility:
   node_type:
     id: node_type
