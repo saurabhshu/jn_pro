@@ -8,14 +8,15 @@ CONTENTS OF THIS FILE
  * Requirements
  * Installation
 
+
  INTRODUCTION
  ------------
-  -This is a Custom module to add content type and custom block for QR code.
+  - This is a Custom module to add content type and custom block for QR code.
 
 
  REQUIREMENTS
  ------------
-  - Install codeitnowin/barcode package from packagist.org 
+  - Install codeitnowin/barcode package from packagist.org
    using: composer require codeitnowin/barcode.
 
 
@@ -26,8 +27,8 @@ CONTENTS OF THIS FILE
   contributed Drupal module. Visit https://www.drupal.org/node/1897420 for
   further information.
 
-  - Add the below snippet in your main composer.json file. 
-      
+  - Add the below snippet in your main composer.json file.
+
       "repositories": [
               {
                   "type": "vcs",
@@ -35,5 +36,5 @@ CONTENTS OF THIS FILE
               }
           ],
  Run the command-
- composer require drupal/jn_pro:dev-main 
+ composer require drupal/jn_pro:dev-main
  to download the module and it's dependencies.

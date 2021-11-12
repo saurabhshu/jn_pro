@@ -1,20 +1,20 @@
 <?php
+
 namespace Drupal\jn_pro\Controller;
+
 use Drupal\image\Entity\ImageStyle;
 use Drupal\file\Entity\File;
 use Drupal\node\Entity\Node;
 
-
-
 /**
- *Listing of Products
+ * Listing of Products.
  */
-class Jn_proController {
+class JnproController {
 
   /**
-   * Start listing Of Products///.
+   * Start listing Of Products.
    */
-  public function pro_list() {
+  public function Prolist() {
     global $base_url;
     $nids = \Drupal::entityQuery('node')->condition('type', 'jugad_products')->execute();
     $nodes = Node::loadMultiple($nids);
@@ -29,7 +29,7 @@ class Jn_proController {
         $variables['productlist']['jnprolist'][] =
         [
           'title' => $title[0]['value'],
-          'des' => substr($des[0]['value'],0,150).'...',
+          'des' => substr($des[0]['value'], 0, 150) . '...',
           'image' => $url,
           'nid' => $nid[0]['value'],
         ];
@@ -46,5 +46,5 @@ class Jn_proController {
     ];
   }
 
-  // End listing Of Products///.
+  // End listing Of Products.
 }

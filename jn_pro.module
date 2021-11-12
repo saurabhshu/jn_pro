@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Use of Template 
+ * Use of Template .
  */
 
 /**
@@ -12,7 +12,6 @@ function jn_pro_theme($existing, $type, $theme, $path) {
   return [
     'jnprolist_template' => [
       'variables' => ['title' => NULL, 'name' => NULL],
-
     ],
   ];
 }
