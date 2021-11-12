@@ -2,11 +2,11 @@
 
 /**
  * @file
- * Install, update and uninstall functions for the Jugaad Patches Product module.
+ * Install,Update and uninstall functions for the Jugaad Patches Product module.
  */
 
 /**
- * Implements hook_install().
+ * Implements hook_uninstall().
  */
 function jn_pro_uninstall() {
   \Drupal::cache('data')->deleteAll();

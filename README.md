@@ -26,7 +26,7 @@ CONTENTS OF THIS FILE
   contributed Drupal module. Visit https://www.drupal.org/node/1897420 for
   further information.
 
-  - Add the below snippet in your main composer.json file and run the command -
+  - Add the below snippet in your main composer.json file. 
       
       "repositories": [
               {
@@ -34,5 +34,6 @@ CONTENTS OF THIS FILE
                   "url": "git@github.com:saurabhshu/jn_pro"
               }
           ],
-		  
-    composer require drupal/jn_pro:dev-main to download the module and it's dependencies.
+ Run the command-
+ composer require drupal/jn_pro:dev-main 
+ to download the module and it's dependencies.
