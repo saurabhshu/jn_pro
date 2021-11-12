@@ -14,7 +14,7 @@ class JnproController {
   /**
    * Start listing Of Products.
    */
-  public function Prolist() {
+  public function proList() {
     global $base_url;
     $nids = \Drupal::entityQuery('node')->condition('type', 'jugad_products')->execute();
     $nodes = Node::loadMultiple($nids);
