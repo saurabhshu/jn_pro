@@ -16,7 +16,8 @@ class JnproController {
    */
   public function proList() {
     global $base_url;
-    $nids = \Drupal::entityQuery('node')->condition('type', 'jugad_products')->execute();
+	\Drupal::service('cache.render')->invalidateAll()
+    $nids = \Drupal::entityQuery('node')->condition('type', 'jugad_products')->condition('status', 1)->execute();
     $nodes = Node::loadMultiple($nids);
     if (!empty($nodes)) {
       foreach ($nodes as $res) {

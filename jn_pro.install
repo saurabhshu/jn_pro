@@ -4,7 +4,16 @@
  * @file
  * Install,Update and uninstall functions for the Jugaad Patches Product module.
  */
-
+/**
+ * Implements hook_install().
+ */
+ function jugaad_products_install() {
+  //For Seeting the homepage
+  \Drupal::configFactory()
+           ->getEditable('system.site')
+		   ->set('page.front', '/product-list')
+		   ->save();
+}
 /**
  * Implements hook_uninstall().
  */

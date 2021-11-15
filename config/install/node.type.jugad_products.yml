@@ -9,7 +9,7 @@ third_party_settings:
     available_menus: {  }
     parent: ''
 _core:
-  default_config_hash: Q2TRXrCaY89KNRORUBcr0KvXAbCkrf53FKmhvv_963k
+  default_config_hash: a07o-p2gQieuut8t7eydHShC_eNHmGWu155mkxi8dk4
 name: 'Jugad Products'
 type: jugad_products
 description: 'To Add the Jugaad Patches Products For Purchase Qr Code'
