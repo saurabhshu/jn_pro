@@ -17,6 +17,7 @@ function jn_pro_install() {
  * Implements hook_uninstall().
  */
 function jn_pro_uninstall() {
-  \Drupal::cache('data')->deleteAll();
+
   \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/')->save();
+  \Drupal::cache('data')->deleteAll();
 }
