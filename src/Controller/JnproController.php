@@ -19,7 +19,8 @@ class JnproController {
    */
   public function proList() {
     global $base_url;
-    drupal_flush_all_caches();
+    \Drupal::service("router.builder")->rebuild();
+    \Drupal::service('page_cache_kill_switch')->trigger();
     $nids = \Drupal::entityQuery('node')
       ->condition('type', 'jugad_products')
       ->condition('status', 1)
