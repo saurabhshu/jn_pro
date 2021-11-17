@@ -19,6 +19,7 @@ class JnproController {
    */
   public function proList() {
     global $base_url;
+    drupal_flush_all_caches();
     $nids = \Drupal::entityQuery('node')
       ->condition('type', 'jugad_products')
       ->condition('status', 1)

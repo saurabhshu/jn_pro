@@ -9,7 +9,7 @@
  * Implements hook_install().
  */
 function jn_pro_install() {
-  // For Seeting the homepage.
+  // For Setting the homepage.
   \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/product-list')->save();
 }
 
@@ -18,4 +18,5 @@ function jn_pro_install() {
  */
 function jn_pro_uninstall() {
   \Drupal::cache('data')->deleteAll();
+  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/')->save();
 }
